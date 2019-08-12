@@ -1,0 +1,12 @@
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\bin\Debug\WinformsDependenyInjection.exe.config
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\bin\Debug\WinformsDependenyInjection.exe
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\bin\Debug\WinformsDependenyInjection.pdb
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\bin\Debug\Ninject.dll
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\bin\Debug\Ninject.xml
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.csprojAssemblyReference.cache
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.Properties.Resources.resources
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.csproj.GenerateResource.cache
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.csproj.CopyComplete
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.exe
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.pdb
