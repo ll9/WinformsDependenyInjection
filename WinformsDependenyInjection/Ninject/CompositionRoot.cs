@@ -1,5 +1,6 @@
 ﻿using Ninject;
 using Ninject.Modules;
+using Ninject.Parameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,11 @@ namespace WinformsDependenyInjection.Ninject
         public static T Resolve<T>()
         {
             return _ninjectKernel.Get<T>();
+        }
+
+        public static T Resolve<T>(params IParameter[] parameters)
+        {
+            return _ninjectKernel.Get<T>(parameters);
         }
     }
 }
