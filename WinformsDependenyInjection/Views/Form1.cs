@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinformsDependenyInjection.Controllers;
 using WinformsDependenyInjection.Ninject;
 using WinformsDependenyInjection.Services;
 
@@ -14,16 +15,20 @@ namespace WinformsDependenyInjection
 {
     public partial class Form1 : Form
     {
-        private readonly IPathService _pathService;
+        private readonly Form1Controller _controller;
+        private readonly Models.View viewModel;
 
-        public Form1(IPathService pathService)
+        public Form1(Form1Controller controller, Models.View viewModel)
         {
             InitializeComponent();
-            _pathService = pathService;
-            var path = _pathService.GetPath();
+            this._controller = controller;
+            this.viewModel = viewModel;
+        }
 
-            var z = CompositionRoot.Resolve<Form1>();
-            z.ShowDialog();
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(_controller.GetPath());
+            MessageBox.Show(viewModel.Name);
         }
     }
 }

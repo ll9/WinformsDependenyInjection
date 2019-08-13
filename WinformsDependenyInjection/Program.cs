@@ -1,4 +1,5 @@
 ﻿using Ninject;
+using Ninject.Parameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,8 @@ namespace WinformsDependenyInjection
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(CompositionRoot.Resolve<Form1>());
+            var view = CompositionRoot.Resolve<Form1>(new ConstructorArgument("viewModel", new Models.View { Name = "Hans" }));
+            Application.Run(view);
         }
     }
 }

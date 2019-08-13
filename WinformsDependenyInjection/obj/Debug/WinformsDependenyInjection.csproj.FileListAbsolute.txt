@@ -10,3 +10,4 @@ C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependeny
 C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.csproj.CopyComplete
 C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.exe
 C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.pdb
+C:\Users\Lenovo G50-45\source\repos\WinformsDependenyInjection\WinformsDependenyInjection\obj\Debug\WinformsDependenyInjection.Form1.resources
